@@ -1,19 +1,75 @@
-#titulo {
-    color: tomato;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.articulo_pelicula{
+    background-color: rgba(0, 0, 0, 0.35);
+    margin: 20px;
+    padding: 10px 20px;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    /* height: 100px; */
+    width: 300px ;
+    /* outline: 15px solid red; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p.texto{
-    color: blue;
+.articulo_pelicula h1{
+    text-shadow: 3px 5px 5px black;
 }
 
-p.especial{
-    color: greenyellow;
+.articulo_pelicula a:link, a:visited{
+    color: white;
+    text-decoration: none;
 }
 
-div p{
+.articulo_pelicula a:hover{
     color: aquamarine;
 }
 
-div h2, div h3{
-    color: orange;
+.articulo_pelicula a:active{
+    color: red;
+}
+.articulo_pelicula ul{
+    list-style-type: none;
+    text-align: center;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px;
+    
+}
+
+th, td{
+    border: solid 1.5px black;
+    padding: 5px;
+    
+}
+
+th{
+    background-color: rgb(255, 67, 67);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #B5B5B5;
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+
+nav ,a{
+    text-decoration: none;
+    background-color:  #999797;
+    display: inline;
+    padding: 10px;
+    margin: 10%;
+}
+
+nav{
+    
 }
