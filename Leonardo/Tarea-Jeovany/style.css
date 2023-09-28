@@ -1,0 +1,17 @@
+table td{
+    border: 1px solid black;
+}
+
+table{
+    width: 300px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+button{
+    width: 100px;
+}
